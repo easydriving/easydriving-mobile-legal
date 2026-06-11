@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad — Easy Driving Perú</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@700;800&display=swap');
+
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --amarillo:       #FFC107;
+            --amarillo-dark:  #F29300;
+            --blanco:         #FFFFFF;
+            --negro:          #0f0f0f;
+            --gris:           #6b6b6b;
+            --gris-claro:     #e8e8e8;
+            --fondo:          #f5f5f5;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--fondo);
+            color: var(--negro);
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+        /* HEADER */
+        header {
+            background: var(--negro);
+            padding: 48px 24px 40px;
+            text-align: center;
+        }
+
+        .logo-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .logo-icon {
+            width: 42px;
+            height: 42px;
+            background: var(--amarillo);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo-icon svg {
+            width: 24px;
+            height: 24px;
+            fill: var(--negro);
+        }
+
+        .logo-text {
+            font-family: 'Syne', sans-serif;
+            font-weight: 800;
+            font-size: 18px;
+            color: var(--blanco);
+            letter-spacing: -0.3px;
+        }
+
+        header h1 {
+            font-family: 'Syne', sans-serif;
+            font-weight: 700;
+            font-size: clamp(28px, 5vw, 42px);
+            color: var(--blanco);
+            letter-spacing: -1px;
+            line-height: 1.1;
+            margin-bottom: 12px;
+        }
+
+        header p {
+            color: #999;
+            font-size: 14px;
+        }
+
+        /* CONTENIDO */
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+        }
+
+        /* INTRO CARD */
+        .intro-card {
+            background: var(--blanco);
+            border-left: 4px solid var(--amarillo);
+            border-radius: 8px;
+            padding: 24px 28px;
+            margin-bottom: 48px;
+            font-size: 15px;
+            color: #333;
+        }
+
+        /* SECCIONES */
+        section {
+            margin-bottom: 40px;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--gris-claro);
+        }
+
+        .section-number {
+            font-family: 'Syne', sans-serif;
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--negro);
+            background: var(--amarillo);
+            padding: 2px 8px;
+            border-radius: 4px;
+            letter-spacing: 0.5px;
+        }
+
+        h2 {
+            font-family: 'Syne', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            color: var(--negro);
+            letter-spacing: -0.3px;
+        }
+
+        p {
+            color: #444;
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+
+        p:last-child { margin-bottom: 0; }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 12px 0;
+        }
+
+        ul li {
+            display: flex;
+            gap: 10px;
+            align-items: flex-start;
+            padding: 8px 0;
+            font-size: 15px;
+            color: #444;
+            border-bottom: 1px solid var(--gris-claro);
+        }
+
+        ul li:last-child { border-bottom: none; }
+
+        ul li::before {
+            content: '→';
+            color: var(--amarillo-dark);
+            font-weight: 700;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+
+        /* CONTACTO */
+        .contact-box {
+            background: var(--negro);
+            border-radius: 12px;
+            padding: 32px;
+            margin-top: 48px;
+            text-align: center;
+        }
+
+        .contact-box h3 {
+            font-family: 'Syne', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            color: var(--blanco);
+            margin-bottom: 8px;
+        }
+
+        .contact-box p {
+            color: #999;
+            font-size: 14px;
+            margin-bottom: 16px;
+        }
+
+        .contact-box a {
+            display: inline-block;
+            background: var(--amarillo);
+            color: var(--negro);
+            text-decoration: none;
+            padding: 10px 24px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        .contact-box a:hover {
+            background: var(--amarillo-dark);
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 24px;
+            color: var(--gris);
+            font-size: 13px;
+            border-top: 1px solid var(--gris-claro);
+        }
+
+        @media (max-width: 600px) {
+            header { padding: 36px 20px 32px; }
+            .container { padding: 32px 20px 60px; }
+            .contact-box { padding: 24px 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo-badge">
+        <div class="logo-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5S16.67 13 17.5 13s1.5.67 1.5 1.5S18.33 16 17.5 16zM5 11l1.5-4.5h11L19 11H5z"/>
+            </svg>
+        </div>
+        <span class="logo-text">Easy Driving Perú</span>
+    </div>
+    <h1>Política de Privacidad</h1>
+    <p>Última actualización: junio de 2026</p>
+</header>
+
+<div class="container">
+
+    <div class="intro-card">
+        Esta política describe cómo Easy Driving Perú recopila, usa y protege la información personal de los usuarios de la aplicación móvil. Al usar la app, aceptas los términos descritos aquí.
+    </div>
+
+    <section>
+        <div class="section-header">
+            <span class="section-number">01</span>
+            <h2>Información que recopilamos</h2>
+        </div>
+        <p>La aplicación recopila los siguientes datos personales para su funcionamiento:</p>
+        <ul>
+            <li>Nombre completo del alumno o instructor</li>
+            <li>Número de DNI (usado como credencial de acceso)</li>
+            <li>Número de teléfono celular</li>
+            <li>Correo electrónico (alumnos)</li>
+            <li>Token de dispositivo FCM para notificaciones push</li>
+            <li>Datos de clases: fechas, horarios, vehículo asignado y sede</li>
+            <li>Evaluaciones y observaciones registradas por instructores</li>
+            <li>Kilometraje registrado durante las clases</li>
+        </ul>
+    </section>
+
+    <section>
+        <div class="section-header">
+            <span class="section-number">02</span>
+            <h2>Cómo usamos la información</h2>
+        </div>
+        <p>Los datos recopilados se usan exclusivamente para:</p>
+        <ul>
+            <li>Autenticar el acceso a la aplicación mediante DNI</li>
+            <li>Mostrar el plan de manejo, clases programadas y progreso del alumno</li>
+            <li>Permitir al instructor gestionar sus clases del día y registrar evaluaciones</li>
+            <li>Enviar notificaciones de recordatorio de clases próximas</li>
+            <li>Generar reportes de cumplimiento para la administración de la academia</li>
+        </ul>
+    </section>
+
+    <section>
+        <div class="section-header">
+            <span class="section-number">03</span>
+            <h2>Almacenamiento y seguridad</h2>
+        </div>
+        <p>Toda la información se transmite de forma cifrada mediante HTTPS. Los datos se almacenan en servidores seguros con acceso restringido. No almacenamos contraseñas — el acceso se realiza exclusivamente por DNI.</p>
+        <p>Los tokens FCM se usan únicamente para el envío de notificaciones y no se comparten con terceros.</p>
+    </section>
+
+    <section>
+        <div class="section-header">
+            <span class="section-number">04</span>
+            <h2>Compartición de datos</h2>
+        </div>
+        <p>Easy Driving Perú <strong>no vende ni comparte</strong> datos personales con terceros. La información es accesible únicamente por:</p>
+        <ul>
+            <li>El propio usuario (alumno o instructor)</li>
+            <li>El personal administrativo autorizado de la academia</li>
+            <li>Los instructores asignados a cada alumno (solo datos relevantes a la clase)</li>
+        </ul>
+    </section>
+
+    <section>
+        <div class="section-header">
+            <span class="section-number">05</span>
+            <h2>Notificaciones push</h2>
+        </div>
+        <p>La aplicación envía notificaciones para recordar clases próximas y alertas de evaluaciones pendientes. Puedes desactivar las notificaciones en cualquier momento desde la configuración de tu dispositivo.</p>
+    </section>
+
+    <section>
+        <div class="section-header">
+            <span class="section-number">06</span>
+            <h2>Derechos del usuario</h2>
+        </div>
+        <p>Tienes derecho a:</p>
+        <ul>
+            <li>Acceder a los datos personales que tenemos sobre ti</li>
+            <li>Solicitar la corrección de datos incorrectos</li>
+            <li>Solicitar la eliminación de tu cuenta y datos asociados</li>
+        </ul>
+        <p>Para ejercer estos derechos, contáctanos mediante el correo indicado al final de esta página.</p>
+    </section>
+
+    <section>
+        <div class="section-header">
+            <span class="section-number">07</span>
+            <h2>Menores de edad</h2>
+        </div>
+        <p>La aplicación puede ser usada por menores de edad que sean alumnos de la academia, siempre bajo supervisión y consentimiento de sus padres o tutores legales. No recopilamos datos de menores fuera del contexto de su matrícula en la academia.</p>
+    </section>
+
+    <section>
+        <div class="section-header">
+            <span class="section-number">08</span>
+            <h2>Cambios en esta política</h2>
+        </div>
+        <p>Podemos actualizar esta política ocasionalmente. Notificaremos cambios significativos a través de la aplicación. El uso continuado de la app después de los cambios implica la aceptación de la nueva política.</p>
+    </section>
+
+    <div class="contact-box">
+        <h3>¿Tienes preguntas?</h3>
+        <p>Contáctanos si tienes dudas sobre el manejo de tus datos personales.</p>
+        <a href="mailto:voidlab.pe@gmail.com">voidlab.pe@gmail.com</a>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Easy Driving Perú · Todos los derechos reservados
+</footer>
+
+</body>
+</html>
